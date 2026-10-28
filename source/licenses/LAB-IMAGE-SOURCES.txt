@@ -1,0 +1,50 @@
+Original Lab 12-15 images, preserved without editing.
+Source repository: https://github.com/TaeTanakrit0089/PhysicalComputing-167
+
+lab14-ntc
+https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs14-Sensor_and_LCD/files/L2.7.png
+รูปต้นฉบับ Lab 14: สาย Analog Input Pin ให้ต่อ A0, GND ต่อ GND และไฟเลี้ยงตัวอย่างนี้ใช้ 5V ตามโค้ด/สมการ แม้ในรูปมีข้อความ +3.3V ปะปน ไม่แก้ไขภาพต้นฉบับ
+
+lab14-mcp
+https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs14-Sensor_and_LCD/files/L2.6.png
+รูปต้นฉบับ Lab 14 ใช้สัญลักษณ์ TMP ใน Tinkercad; อุปกรณ์โจทย์คือ MCP9700 ต้องตรวจขาจริง VDD/VOUT/GND และใช้สูตร MCP9700 ตามโค้ด
+
+lab14-ultrasonic
+https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs14-Sensor_and_LCD/files/L2.8.png
+รูปต้นฉบับ Lab 14: TRIG=D4, ECHO=D2 ตรงกับโค้ดในเว็บ
+
+lab13-pot
+https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs13-Digital_Read_and_Analog_Signal/files/L2.5.png
+รูปต้นฉบับ Lab 13: ขากลาง Potentiometer ไป A0, LED ใช้ PWM ตรวจพินกับตารางใต้รูปก่อนต่อ
+
+lab12-rgb
+https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs12-IntroToMicrocontroller/files/img/ex02-rgb-example.png
+รูปต้นฉบับ Lab 12: RGB Common Anode ภาพใช้พอร์ตสี D9/D10/D11 แต่โค้ดในเว็บกำหนด D3/D5/D6 ให้เดินสายตามตารางขา หรือแก้ค่าคงที่ RED/GREEN/BLUE ในโค้ดให้ตรงภาพ
+
+lab12-seven
+https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs12-IntroToMicrocontroller/files/img/ex04-Arduino7segmentdisplay.png
+รูปต้นฉบับ Lab 12: ตรวจตำแหน่งขา a–g ของ 7-segment จริงก่อนต่อ เลขขาตัวอุปกรณ์ไม่ใช่เลขขา Arduino
+
+lab12-seven2
+https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs12-IntroToMicrocontroller/files/img/Arduino%207%20segment%20display%20%282%20digit%29%20-%20Common%20Cathode.png
+รูปต้นฉบับ Lab 12 เป็นวงจรสองหลัก แต่ไม่มี NPN driver แบบในโค้ดเว็บ รูปตรงกับวงจร NPN ยังไม่มี ให้ยึดตารางขาและอย่าต่อขา common ตามรูปนี้โดยไม่ปรับวงจร
+
+lab12-example
+https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs12-IntroToMicrocontroller/files/img/example_circuit.png
+รูปต้นฉบับแสดง LED สามดวง ไม่ใช่ LED เดี่ยวตรงกับโค้ด Blink ใช้ดูแนวทางต่อ LED กับ R อนุกรม ส่วนขา D9 ให้ยึดตารางในเว็บ
+
+lab13-fading
+https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs13-Digital_Read_and_Analog_Signal/files/led_fading_2.png
+รูปต้นฉบับ Lab 13: LED 4 ดวง แต่ต้องตรวจ/จัดพอร์ต PWM ให้ตรงกับโค้ดเว็บ D3/D5/D6/D9
+
+lab15-pot
+https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs15-internet_of_things/files/ex4.png
+ภาพรวมจาก Lab 15 แสดงการส่งข้อมูลสองบอร์ดผ่าน Broker ไม่ใช่ภาพเดินสายละเอียด
+
+lab15-keypad
+https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs15-internet_of_things/files/2.jpg
+ภาพรวมจาก Lab 15 แสดง Keypad ส่งข้อมูลไป LCD ไม่ใช่ภาพเดินสาย Keypad หรือ LCD
+
+lab15-rgb
+https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs15-internet_of_things/files/1.png
+ภาพโจทย์และผลการผสมสีจาก Lab 15 ไม่ใช่ภาพเดินสายเว็บกับ RGB

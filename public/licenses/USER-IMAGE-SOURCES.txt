@@ -1,0 +1,5 @@
+User-provided wiring images, supplied in this chat on 2026-10-27.
+Copied unchanged: LDR, PIR, keypad, LCD I2C, IR module, LED, double seven segment.
+Authorship/licensing beyond user provision has not been independently established.
+Switch image extracted without alteration from PC69-13_Micro02.pdf page 13 (Image104).
+Circuit pin differences are explained next to each image; do not infer GPIO numbers from wire colors.

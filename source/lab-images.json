@@ -1,0 +1,110 @@
+{
+  "thermistor": {
+    "asset": "lab14-ntc",
+    "source": "https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs14-Sensor_and_LCD/files/L2.7.png",
+    "note": "รูปต้นฉบับ Lab 14: สาย Analog Input Pin ให้ต่อ A0, GND ต่อ GND และไฟเลี้ยงตัวอย่างนี้ใช้ 5V ตามโค้ด/สมการ แม้ในรูปมีข้อความ +3.3V ปะปน ไม่แก้ไขภาพต้นฉบับ",
+    "kind": "wiring"
+  },
+  "mcp9700": {
+    "asset": "lab14-mcp",
+    "source": "https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs14-Sensor_and_LCD/files/L2.6.png",
+    "note": "รูปต้นฉบับ Lab 14 ใช้สัญลักษณ์ TMP ใน Tinkercad; อุปกรณ์โจทย์คือ MCP9700 ต้องตรวจขาจริง VDD/VOUT/GND และใช้สูตร MCP9700 ตามโค้ด",
+    "kind": "wiring"
+  },
+  "hc-sr04": {
+    "asset": "lab14-ultrasonic",
+    "source": "https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs14-Sensor_and_LCD/files/L2.8.png",
+    "note": "รูปต้นฉบับ Lab 14: TRIG=D4, ECHO=D2 ตรงกับโค้ดในเว็บ",
+    "kind": "wiring"
+  },
+  "pot": {
+    "asset": "lab13-pot",
+    "source": "https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs13-Digital_Read_and_Analog_Signal/files/L2.5.png",
+    "note": "รูปต้นฉบับ Lab 13: ขากลาง Potentiometer ไป A0, LED ใช้ PWM ตรวจพินกับตารางใต้รูปก่อนต่อ",
+    "kind": "wiring"
+  },
+  "rgb": {
+    "asset": "lab12-rgb",
+    "source": "https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs12-IntroToMicrocontroller/files/img/ex02-rgb-example.png",
+    "note": "รูปต้นฉบับ Lab 12: RGB Common Anode ภาพใช้พอร์ตสี D9/D10/D11 แต่โค้ดในเว็บกำหนด D3/D5/D6 ให้เดินสายตามตารางขา หรือแก้ค่าคงที่ RED/GREEN/BLUE ในโค้ดให้ตรงภาพ",
+    "kind": "wiring"
+  },
+  "seven": {
+    "asset": "lab12-seven",
+    "source": "https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs12-IntroToMicrocontroller/files/img/ex04-Arduino7segmentdisplay.png",
+    "note": "รูปต้นฉบับ Lab 12: ตรวจตำแหน่งขา a–g ของ 7-segment จริงก่อนต่อ เลขขาตัวอุปกรณ์ไม่ใช่เลขขา Arduino",
+    "kind": "wiring"
+  },
+  "seven2": {
+    "asset": "user-seven2",
+    "note": "รูปที่ผู้ใช้ส่งเป็นแบบต่อ common cathode เข้าขาบอร์ดโดยตรง ใช้กับ seven_two_direct.ino: a,b,c,d,e,f,g=D4,D5,D8,D6,D7,D3,D2 และ common=D10,D11 เปิดด้วย LOW; ตัวอย่างหลัก seven_two.ino ใช้ NPN เปิดด้วย HIGH เป็นคนละวงจร",
+    "kind": "partial",
+    "origin": "ภาพที่ผู้ใช้ส่ง"
+  },
+  "led": {
+    "asset": "user-led",
+    "note": "รูปที่ผู้ใช้ส่ง: LED ต่อ R อนุกรมและ GND ภาพสายสัญญาณอยู่ D11 แต่โค้ด Blink ใช้ D9 ให้ย้ายสายไป D9; ค่าตัวต้านทานตามตาราง",
+    "kind": "wiring",
+    "origin": "ภาพที่ผู้ใช้ส่ง"
+  },
+  "lab13": {
+    "asset": "lab13-fading",
+    "source": "https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs13-Digital_Read_and_Analog_Signal/files/led_fading_2.png",
+    "note": "รูปต้นฉบับ Lab 13: LED 4 ดวง แต่ต้องตรวจ/จัดพอร์ต PWM ให้ตรงกับโค้ดเว็บ D3/D5/D6/D9",
+    "kind": "partial"
+  },
+  "mqtt-pot": {
+    "asset": "lab15-pot",
+    "source": "https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs15-internet_of_things/files/ex4.png",
+    "note": "ภาพรวมจาก Lab 15 แสดงการส่งข้อมูลสองบอร์ดผ่าน Broker ไม่ใช่ภาพเดินสายละเอียด",
+    "kind": "overview"
+  },
+  "mqtt-keypad": {
+    "asset": "lab15-keypad",
+    "source": "https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs15-internet_of_things/files/2.jpg",
+    "note": "ภาพรวมจาก Lab 15 แสดง Keypad ส่งข้อมูลไป LCD ไม่ใช่ภาพเดินสาย Keypad หรือ LCD",
+    "kind": "overview"
+  },
+  "mqtt-web": {
+    "asset": "lab15-rgb",
+    "source": "https://github.com/TaeTanakrit0089/PhysicalComputing-167/blob/main/labs/labs15-internet_of_things/files/1.png",
+    "note": "ภาพโจทย์และผลการผสมสีจาก Lab 15 ไม่ใช่ภาพเดินสายเว็บกับ RGB",
+    "kind": "overview"
+  },
+  "ldr": {
+    "asset": "user-ldr",
+    "note": "รูปที่ผู้ใช้ส่ง: 5V → LDR → A0 → R 10kΩ → GND ตรงส่วนรับแสงในโค้ด; LED ที่ D4 เป็นส่วนเพิ่มตามตาราง",
+    "kind": "wiring",
+    "origin": "ภาพที่ผู้ใช้ส่ง"
+  },
+  "pir": {
+    "asset": "user-pir",
+    "note": "รูปที่ผู้ใช้ส่ง: OUT อยู่ D2 แต่โค้ด PIR → RGB ใช้ D4 ให้ย้ายสาย OUT ไป D4; RGB ต่อเพิ่มตามตาราง",
+    "kind": "wiring",
+    "origin": "ภาพที่ผู้ใช้ส่ง"
+  },
+  "keypad": {
+    "asset": "user-keypad",
+    "note": "รูปที่ผู้ใช้ส่งใช้ชุดพินต่างจากโค้ดเว็บ ให้ยึดตาราง R1–R4=D6–D9 และ C1–C4=D2–D5 พร้อมตรวจผังหัวต่อจริง; ปุ่มแถวสามในภาพพิมพ์ 0 แทน 9",
+    "kind": "wiring",
+    "origin": "ภาพที่ผู้ใช้ส่ง"
+  },
+  "lcd": {
+    "asset": "user-lcd",
+    "note": "รูปที่ผู้ใช้ส่ง: GND→GND, VCC→5V, SDA→SDA, SCL→SCL; UNO R4 WiFi ใช้ SDA/A4 และ SCL/A5 ตามตาราง",
+    "kind": "wiring",
+    "origin": "ภาพที่ผู้ใช้ส่ง"
+  },
+  "ir-sound": {
+    "asset": "user-ir",
+    "note": "รูปที่ผู้ใช้ส่งเป็น IR obstacle module ไม่ใช่ Sound module: ภาพ OUT=D9 แต่โค้ด digital_module ใช้ OUT=D4 และ LED=D9 ให้ต่อ OUT ตามตาราง; ตรวจป้าย OUT/GND/VCC ที่โมดูลจริง",
+    "kind": "wiring",
+    "origin": "ภาพที่ผู้ใช้ส่ง"
+  },
+  "switch": {
+    "asset": "slide13-input-pullup",
+    "kind": "wiring",
+    "note": "สไลด์ 13 หน้า 13: D4 → ปุ่ม → GND ใช้ pinMode(4, INPUT_PULLUP) ปล่อย HIGH กด LOW; LED D9 ในโค้ดต่อเพิ่มตามตาราง ไม่ต้องใช้ R pull-up ภายนอก",
+    "origin": "PC69-13_Micro02.pdf · หน้า 13"
+  }
+}
